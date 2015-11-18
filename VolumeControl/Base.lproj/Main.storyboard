@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JMZ-Lo-tUG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySK-zJ-RYz">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                                <state key="normal" image="big-volume-white"/>
+                                <connections>
+                                    <action selector="onVolumeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QRP-G0-Ktz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mt-qz-Xg6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="QkX-4C-V6Y"/>
+                                    <constraint firstAttribute="height" constant="30" id="aDS-ir-TT6"/>
+                                </constraints>
+                                <state key="normal" image="12R-logo"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="QkX-4C-V6Y"/>
+                                        <exclude reference="aDS-ir-TT6"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="QkX-4C-V6Y"/>
+                                        <include reference="aDS-ir-TT6"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="on12Rockets:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6dD-oU-icP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1450980392" green="0.14117647059999999" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ySK-zJ-RYz" secondAttribute="bottom" constant="53" id="1hG-80-hAL"/>
+                            <constraint firstAttribute="trailing" secondItem="ySK-zJ-RYz" secondAttribute="trailing" constant="4" id="SNM-29-q4h"/>
+                            <constraint firstItem="9mt-qz-Xg6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-30" id="eYS-re-sh9"/>
+                            <constraint firstItem="9mt-qz-Xg6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sLM-45-ZmU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="ySK-zJ-RYz"/>
+                                <exclude reference="9mt-qz-Xg6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1hG-80-hAL"/>
+                                <exclude reference="eYS-re-sh9"/>
+                                <exclude reference="sLM-45-ZmU"/>
+                                <exclude reference="SNM-29-q4h"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="ySK-zJ-RYz"/>
+                                <include reference="9mt-qz-Xg6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1hG-80-hAL"/>
+                                <include reference="eYS-re-sh9"/>
+                                <include reference="sLM-45-ZmU"/>
+                                <include reference="SNM-29-q4h"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="24n-XZ-JOf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018.5" y="213.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pdk-GA-NQ5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JMZ-Lo-tUG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OkZ-La-muR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Lnj-gU-RKM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JHv-qi-AC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244.5" y="213.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="12R-logo" width="137" height="23"/>
+        <image name="big-volume-white" width="21" height="21"/>
+    </resources>
+</document>
