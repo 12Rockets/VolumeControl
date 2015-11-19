@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1F3E271BFE037400EB8550 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3E261BFE037400EB8550 /* License.txt */; };
+		7A1F3E291BFE037B00EB8550 /* VolumeControl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3E281BFE037B00EB8550 /* VolumeControl.gif */; };
 		7A4879AD1BF9D589002E0B89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4879AC1BF9D589002E0B89 /* main.m */; };
 		7A4879B01BF9D589002E0B89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4879AF1BF9D589002E0B89 /* AppDelegate.m */; };
 		7A4879B31BF9D589002E0B89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4879B21BF9D589002E0B89 /* ViewController.m */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A1F3E261BFE037400EB8550 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		7A1F3E281BFE037B00EB8550 /* VolumeControl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = VolumeControl.gif; sourceTree = "<group>"; };
 		7A4879A81BF9D589002E0B89 /* VolumeControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4879AC1BF9D589002E0B89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A4879AE1BF9D589002E0B89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 		7A48799F1BF9D589002E0B89 = {
 			isa = PBXGroup;
 			children = (
+				7A1F3E261BFE037400EB8550 /* License.txt */,
+				7A1F3E281BFE037B00EB8550 /* VolumeControl.gif */,
 				7A4879AA1BF9D589002E0B89 /* VolumeControl */,
 				7A4879C41BF9D58A002E0B89 /* VolumeControlTests */,
 				7A4879CF1BF9D58A002E0B89 /* VolumeControlUITests */,
@@ -256,8 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1F3E271BFE037400EB8550 /* License.txt in Resources */,
 				7A4879BB1BF9D589002E0B89 /* LaunchScreen.storyboard in Resources */,
 				7A4879B81BF9D589002E0B89 /* Assets.xcassets in Resources */,
+				7A1F3E291BFE037B00EB8550 /* VolumeControl.gif in Resources */,
 				7A4879B61BF9D589002E0B89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
