@@ -1,4 +1,4 @@
-#VolumeControl
+# VolumeControl
 
 VolumeControl is a custom volume control for iPhone featuring a well-designed round slider.
 
@@ -38,20 +38,20 @@ self.control = [[VolumeControl alloc] initWithCenter:CGPointMake(screen.size.wid
 
 }
 ```
-##Credit
+## Credit
 Designed and developed by [12Rockets](http://12rockets.com/).
 
-###Development
+### Development
 
 * [Marko Cancar](https://github.com/marko-cancar)
 
-###Design
+### Design
 
 * [Maja Savic](https://github.com/majasavic)
 * [Nikola Zivanovic](https://github.com/therandoman)
 
 ---
-##Feedback
+## Feedback
 Send us your feedback at hello@12rockets.com or hit us up on [Twitter](https://twitter.com/TwelveRockets).
 
 
